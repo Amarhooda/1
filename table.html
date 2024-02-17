@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav style="margin: -13px 0px 0px 0px">
+        <div class="navbar">
+            <ul class="list">
+                <a id="page" href="index.html">
+                    <li>Home</li>
+                </a>
+                <a id="page" href="form.html">
+                    <li>Form</li>
+                </a>
+                <a id="page" href="table.html">
+                    <li>Table</li>
+                </a>
+                <a id="page" href="list.html">
+                    <li>List</li>
+                </a>
+                <a id="page" href="via.html">
+                    <li>VIA</li>
+                </a>
+                <a id="page" href="text.html">
+                    <li>Text Formatting</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <h1>This is about Html Tables</h1>
+    <p>
+
+        HTML tables are a fundamental way to present tabular data on web pages. They offer a structured and organized
+        way to display information in rows and columns, making it easy for users to read and understand. Here's a
+        breakdown of key aspects:<br>
+
+    <h3>Structure:</h3>
+
+    The basic building block is the
+    table element, which defines the entire table.
+    Each row is defined by the tr element, nested within the table.
+    Individual cells are defined by either th for table headers or
+    td for regular data cells.<br>
+
+    <h4>Key points:</h4>
+
+    Use tables only for presenting tabular data, not for website layout (a common practice in the past).
+    Tables offer various attributes for customization, like border, width, cellspacing, etc.
+    You can group rows and headers using additional elements like thead,
+    tfoot, and tbody.
+    For accessibility and responsiveness, consider alternative solutions like CSS Grid or Flexbox
+    when appropriate.
+    </p>
+    <br>
+    <hr>
+    <div class="tables_div">
+        <span>
+            <table class="Population">
+                <caption>Population over the world</caption>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Population</th>
+                        <th>Land Area</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>India</td>
+                        <td>1,428,627,663</td>
+                        <td>2,973,190</td>
+                    </tr>
+                    <tr>
+                        <td>China</td>
+                        <td>1,425,671,352</td>
+                        <td>9,388,211</td>
+                    </tr>
+                    <tr>
+                        <td>USA</td>
+                        <td>339,996,563</td>
+                        <td>9,147,420</td>
+                    </tr>
+                    <tr>
+                        <td>Indonesia</td>
+                        <td>277,534,122</td>
+                        <td>1,811,570</td>
+                    </tr>
+                    <tr>
+                        <td>Pakistan</td>
+                        <td>240,485,658 </td>
+                        <td>770,880</td>
+                    </tr>
+                </tbody>
+            </table>
+            <label>With Collapsed Border</label>
+        </span>
+        <span>
+            <table class="Population" style="border-collapse: separate;">
+                <caption>Population over the world</caption>
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Population</th>
+                        <th>Land Area</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>India</td>
+                        <td>1,428,627,663</td>
+                        <td>2,973,190</td>
+                    </tr>
+                    <tr>
+                        <td>China</td>
+                        <td>1,425,671,352</td>
+                        <td>9,388,211</td>
+                    </tr>
+                    <tr>
+                        <td>USA</td>
+                        <td>339,996,563</td>
+                        <td>9,147,420</td>
+                    </tr>
+                    <tr>
+                        <td>Indonesia</td>
+                        <td>277,534,122</td>
+                        <td>1,811,570</td>
+                    </tr>
+                    <tr>
+                        <td>Pakistan</td>
+                        <td>240,485,658 </td>
+                        <td>770,880</td>
+                    </tr>
+                </tbody>
+            </table>
+            <label>With Seperated Border</label>
+        </span>
+    </div>
+
+</body>
+
+</html>

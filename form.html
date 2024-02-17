@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav style="margin: -13px 0px 0px 0px">
+        <div class="navbar">
+            <ul class="list">
+                <a id="page" href="index.html">
+                    <li>Home</li>
+                </a>
+                <a id="page" href="form.html">
+                    <li>Form</li>
+                </a>
+                <a id="page" href="table.html">
+                    <li>Table</li>
+                </a>
+                <a id="page" href="list.html">
+                    <li>List</li>
+                </a>
+                <a id="page" href="via.html">
+                    <li>VIA</li>
+                </a>
+                <a id="page" href="text.html">
+                    <li>Text Formatting</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <h1>Html Forms</h1>
+    <p>HTML Forms: Building Blocks and Examples
+        HTML forms are essential elements for user interaction on web pages. They allow users to enter data, which can
+        be submitted and processed by the server. Here's a breakdown:
+        <br>
+        Basic Structure:
+        <br>
+        The main element is
+        form, defining the form container. Inside, various input elements collect user data:
+        input: Versatile element with different types (text, password, email, checkbox, radio, etc.).
+        textarea: For multi-line text input.
+        select: Creates dropdown menus for choosing options.
+    </p>
+
+    <div class="maindiv">
+        <h3>A basic form</h3>
+        <form>
+            <label for="name">First Name:</label><br>
+            <input type="text" name="name" id="fname" required placeholder="Enter Your First Name"><br>
+            <label for="name">Last Name:</label><br>
+            <input type="text" name="name" id="lname" placeholder="Enter Your Last Name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="e-mail" required placeholder="Enter Your Email"><br>
+            <label for="gender">Gender: </label>
+            <input type="radio" id="male" name="gender">
+            <label>Male</label>
+            <input type="radio" id="female" name="gender">
+            <label>Female</label>
+            <br>
+            <input type="checkbox">
+            <label>Want To learn</label>
+            <br>
+            <label for="dropdown">Language: </label><br>
+            <select>
+                <option>Html</option>
+                <option>Css</option>
+                <option>Javascript</option>
+            </select>
+            <br>
+            <label for="date">Date: </label><br>
+            <input type="date">
+            <br>
+            <label for="cars">Choose a car Brand That you love:</label>
+            <select id="cars" name="cars">
+                <option value="landrover">Land Rover</option>
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="porsche">Porsche</option>
+                <option value="rolls">Rolls Royce</option>
+                <option value="tata">Tata</option>
+                <option value="tesla">Tesla</option>
+                <option value="toyota">Toyota</option>
+                <option value="bugatti">Bugatti</option>
+            </select><br>
+            <textarea style="width:300px; height:100px;" placeholder="Describe More" ></textarea>
+        </form>
+    </div>
+
+</body>
+
+</html>
